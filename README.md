@@ -9,7 +9,7 @@ The results demonstrate that the model architecture is suitable for instance seg
 # Model architecture
 ![fixed_model_](https://github.com/user-attachments/assets/5094875b-13d0-4eb7-92d4-e7114aee3e83)
 
-The encoder consist of two branches, one branch consisting of a Transformer and second branch consisting of a ResNet-34 combined with a multiscale channel attention module.
+The encoder consist of two branches, one branch is based on a Transformer and the second branch consists of a ResNet-34 combined with a multiscale channel attention module.
 The feature maps are decoded by three seperate decoder branches
 1. Decoding into a binary segmentation map
 2. Decoding into horizontal and vertical distances
